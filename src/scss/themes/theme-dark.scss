@@ -58,10 +58,39 @@ body[data-theme="dark"] {
       h1 span {
          color: white;
       }
+      
+      .experience-card {
+         background-color: #6d6d6d;
+         border: 1px solid #555;
+         box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+      }
+      
+      .experience-card h3 {
+         color: white;
+      }
+      
+      .experience-card h4 {
+         color: #e0e0e0;
+      }
+      
+      .experience-card p {
+         color: #d0d0d0;
+      }
+      
+      .experience-card h5 {
+         color: white;
+      }
+      
+      .experience-card h6 {
+         color: white;
+      }
    }
 
    #portfolio {
-      background: #5b5b5b;
+      background: #7f7f7f;
+      h1 span {
+         color: white;
+      }
       .section-title {
          color: white !important;
       }

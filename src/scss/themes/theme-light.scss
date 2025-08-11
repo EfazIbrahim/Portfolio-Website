@@ -10,5 +10,38 @@ body[data-theme="light"] {
        h1 span {
           color: black;
        }
+       
+       .experience-card {
+          background-color: white;
+          border: 1px solid #f0f0f0;
+          box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+       }
+       
+       .experience-card h3 {
+          color: #333;
+       }
+       
+       .experience-card h4 {
+          color: #666;
+       }
+       
+       .experience-card p {
+          color: #555;
+       }
+       
+       .experience-card h5 {
+          color: #333;
+       }
+       
+       .experience-card h6 {
+          color: #333;
+       }
+    }
+
+    #portfolio {
+       background-color: #fff;
+       h1 span {
+          color: black;
+       }
     }
 }
