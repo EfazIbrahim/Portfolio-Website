@@ -81,38 +81,36 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
+        "company": "Wells Fargo",
+        "title": "Software Engineering Intern",
+        "years": "May 2025 - August 2025",
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
+          "Java",
+          "Spring Boot",
+          "MongoDB",
+          "Docker",
+          "OCP",
+          "JMeter",
+          "BlazeMeter",
+          "Grafana",
+          "Google Cloud Platform",
+          "Harness"
+        ],
+        "description": "Developed robust backend services to aggregate API metrics from Splunk and Apigee into MongoDB, enabling real-time visualization in Grafana. Improved system reliability through load testing, streamlined OpenShift deployments, and collaborated in Agile sprints to deliver scalable enterprise solutions."
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
+        "company": "USAA",
+        "title": "Software Engineering Intern",
+        "years": "May 2024 - August 2024",
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
+          "React",
+          "Node.js",
+          "SQL",
+          "AWS",
+          "AWS Lambda",
+          "AWS RDS"
+        ],
+        "description": "Built a web application that streamlined deployments for 100+ internal users by integrating the GitLab API, cutting deployment time by over 50%. Developed reusable React components for USAA’s shared UI library, managed data with AWS Lambda and Amazon RDS, and collaborated in Agile teams to deliver reliable, scalable solutions."
       }
     ]
   }

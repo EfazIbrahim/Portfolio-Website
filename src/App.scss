@@ -121,6 +121,19 @@ header h1 {
 	text-align: center;
 }
 
+#experience {
+	overflow: hidden;
+}
+
+#experience h1 {
+	padding-top: 5%;
+	font: 18px/24px 'opensans-bold', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: black;
+	text-align: center;
+}
+
 .foto img {
 	display: block;
 	width: 100%;
@@ -253,6 +266,7 @@ header h1 {
 .vertical-timeline-element-date {
 	padding: 0 !important;
 	margin: 0 !important;
+	font-size: 1.8rem !important;
 }
 
 @media only screen and (max-width: 1170px) {
