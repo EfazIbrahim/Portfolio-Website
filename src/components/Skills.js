@@ -11,7 +11,7 @@ class Skills extends Component {
       const skillCategories = {
         "Programming Languages": ["Java", "Python", "JavaScript", "TypeScript", "C", "C++", "HTML 5", "CSS 3"],
         "Frameworks & Libraries": ["React", "React Native", "Node.js", "Express.js", "Spring Boot", "Tailwind CSS", "TensorFlow", "Scikit-learn", "OpenCV"],
-        "Cloud & Databases": ["PostgreSQL", "MongoDB", "Amazon RDS", "Firebase", "Firestore", "AWS", "GCP"],
+        "Cloud & Databases": ["PostgreSQL", "MongoDB", "Amazon RDS", "AWS Lambda", "AWS RDS", "AWS Amplify", "Firebase", "Firestore", "AWS", "GCP"],
         "Tools & IDEs": ["Git", "GitHub", "JMeter", "Blaze Meter", "Postman", "Swagger", "IntelliJ IDEA", "Android Studio", "Grafana"]
       };
 

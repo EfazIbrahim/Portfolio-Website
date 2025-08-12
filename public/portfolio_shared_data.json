@@ -120,7 +120,7 @@
         },
         {
           "name": "Amazon RDS",
-          "class": "devicon-amazonwebservices-original",
+          "class": "fas fa-database",
           "level": "75"
         },
         {
@@ -134,8 +134,23 @@
           "level": "80"
         },
         {
+          "name": "AWS Lambda",
+          "class": "fas fa-server",
+          "level": "80"
+        },
+        {
+          "name": "AWS RDS",
+          "class": "fas fa-database",
+          "level": "80"
+        },
+        {
+          "name": "AWS Amplify",
+          "class": "fas fa-rocket",
+          "level": "75"
+        },
+        {
           "name": "AWS",
-          "class": "devicon-amazonwebservices-original",
+          "class": "fas fa-server",
           "level": "80"
         },
         {
@@ -185,7 +200,7 @@
         },
         {
           "name": "Grafana",
-          "class": "devicon-grafana-original",
+          "class": "devicon-googlecloud-plain",
           "level": "70"
         }
       ]
