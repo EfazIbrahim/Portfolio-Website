@@ -52,18 +52,6 @@ header {
 	cursor: pointer;
 }
 
-.project-date {
-	font-size: 16px;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	padding: 8px 15px 2px 15px;
-	position: relative;
-	z-index: -500;
-	border-top: 5px solid #696969;
-	border-radius: 0 0 5px 5px;
-	background-color: #696969;
-	color: white;
-}
-
 .skills-tile {
 	background-color: transparentize(#F8F5F4, 0.95);
 	padding: 10px 10px 5px 10px;
@@ -148,53 +136,45 @@ header h1 {
 	width: 100%;
 }
 
-.foto div {
-	background: #ffffff;
-	display: inline-block;
-	margin: 0 auto 5% auto;
-	padding: 10px 10px 5px;
-	text-align: center;
-	text-decoration: none;
-	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-	-moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-	box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-	-webkit-transition: all .20s linear;
-	-moz-transition: all .20s linear;
-	transition: all .20s linear;
-	z-index: 0;
-	position: relative;
-}
-
-.foto div:after {
-	color: #333;
-	font-size: 25px;
-	content: attr(title);
-	position: relative;
-	top: 15px;
-}
-
-.foto div:hover {
-	-webkit-transform: scale(1.01);
-	-moz-transform: scale(1.01);
-	transform: scale(1.01);
-	z-index: 10;
-	-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
-	-moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
-	box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
-}
-
-.project-title-settings {
-	margin-top: 5%;
-	font: 18px/24px 'opensans-bold', sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	color: black;
-	text-align: center;
-}
-
 .polaroid img {
 	display: block;
 	max-width: 200px;
+}
+
+// Modal Technologies Styling (needed for ProjectDetailsModal)
+.modal-technologies-inline {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin-top: 20px;
+	justify-content: flex-start;
+}
+
+.modal-technology-badge {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	background: rgba(0, 0, 0, 0.1);
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 25px;
+	padding: 8px 15px;
+	font-size: 0.9rem;
+	color: #333;
+	transition: all 0.3s ease;
+}
+
+.modal-technology-badge:hover {
+	background: rgba(0, 0, 0, 0.15);
+	transform: translateY(-2px);
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.modal-technology-badge i {
+	font-size: 1.2rem;
+}
+
+.modal-tech-name {
+	font-weight: 500;
 }
 
 .polaroid span {
@@ -290,6 +270,105 @@ header h1 {
 	background: white;
 }
 
+// Custom modal sizing for project details
+.modal-inside .modal-md {
+	max-width: 65%;
+	width: 65%;
+}
+
+.modal-inside .modal-md .modal-body {
+	padding: 1rem;
+}
+
+.modal-inside .modal-md .modal-content {
+	min-height: 50vh;
+}
+
+// Improve modal layout
+.modal-inside .col-md-10 {
+	max-width: 100%;
+}
+
+.modal-inside .slider-image {
+	margin-bottom: 1rem;
+	width: 100%;
+}
+
+.modal-inside .slider-image img,
+.modal-inside .slider-image div,
+.modal-inside .awssld__wrapper,
+.modal-inside .awssld__content {
+	width: 100%;
+	height: auto;
+	max-height: 300px;
+	object-fit: contain;
+}
+
+// Target Awesome Slider specifically
+.modal-inside .awssld {
+	width: 100%;
+	height: auto;
+}
+
+.modal-inside .awssld__wrapper {
+	height: auto !important;
+}
+
+.modal-inside .awssld__content {
+	height: auto !important;
+}
+
+.modal-inside .modal-description {
+	font-size: 14px;
+	line-height: 1.6;
+	margin-bottom: 1rem;
+}
+
+// Make project title bigger
+.modal-inside h3 {
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin-bottom: 1rem;
+}
+
+// Responsive modal sizing
+@media (max-width: 1200px) {
+	.modal-inside .modal-md {
+		max-width: 75%;
+		width: 75%;
+	}
+}
+
+@media (max-width: 768px) {
+	.modal-inside .modal-md {
+		max-width: 90%;
+		width: 90%;
+		margin: 0;
+	}
+	
+	.modal-inside .modal-md .modal-body {
+		padding: 0.8rem;
+	}
+	
+	.modal-inside .modal-md .modal-content {
+		min-height: 40vh;
+	}
+	
+	.modal-inside .slider-image {
+		width: 100%;
+	}
+	
+	.modal-inside .slider-image img,
+	.modal-inside .slider-image div,
+	.modal-inside .awssld__wrapper,
+	.modal-inside .awssld__content {
+		width: 100%;
+		height: auto;
+		max-height: 300px;
+		object-fit: contain;
+	}
+}
+
 .bars {
 	width: 95%;
 	float: left;
@@ -366,11 +445,13 @@ header h1 {
 #portfolio {
 	background: #fff;
 	overflow: hidden;
+	padding-left: 150px; // Increased from 120px to 150px for more left spacing
+	padding-bottom: 50px; // Add bottom padding under the cards
 }
 
 .portfolio-item {
 	max-width: 100%;
-	margin-bottom: 15px;
+	margin-bottom: 20px; // Reduced from 30px for tighter spacing
 	text-align: center;
 }
 
@@ -395,7 +476,7 @@ header h1 {
 		display: block;
 	}
 	.portfolio .portfolio-item {
-		margin-bottom: 30px;
+		margin-bottom: 25px; // Reduced from 40px for tighter spacing
 	}
 }
 
@@ -652,5 +733,214 @@ footer a:focus {
 	
 	.skills-grid {
 		grid-template-columns: 1fr;
+	}
+}
+
+// Modern Project Cards - Complete Redesign
+.modern-project-card {
+	background: #ffffff;
+	border-radius: 16px;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+	overflow: hidden;
+	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+	cursor: pointer;
+	margin-bottom: 30px;
+	margin-left: 0; // Remove left margin since we have section padding
+	margin-right: 0; // Remove right margin since we have column padding
+	border: 1px solid rgba(0, 0, 0, 0.05);
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+// Fix grid container to prevent nav bar overlap
+#portfolio .row {
+	margin-left: 0; // Remove default left margin
+	margin-right: 0; // Remove default right margin
+}
+
+#portfolio .col-sm-12,
+#portfolio .col-md-6,
+#portfolio .col-lg-6 {
+	padding-left: 15px; // Add left padding to columns
+	padding-right: 15px; // Add right padding to columns
+}
+
+.modern-project-card:hover {
+	transform: translateY(-8px);
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+	border-color: rgba(0, 0, 0, 0.1);
+}
+
+// Project Image Container
+.project-image-container {
+	position: relative;
+	overflow: hidden;
+	height: 280px; // Increased from 220px to 280px to prevent photo cutoff
+	background: #f8f9fa;
+}
+
+.project-image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 0.3s ease;
+}
+
+.modern-project-card:hover .project-image {
+	transform: scale(1.05);
+}
+
+// Project Overlay
+.project-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.7);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+
+.modern-project-card:hover .project-overlay {
+	opacity: 1;
+}
+
+.view-project-btn {
+	background: rgba(255, 255, 255, 0.95);
+	color: #333;
+	padding: 12px 24px;
+	border-radius: 25px;
+	font-weight: 600;
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	backdrop-filter: blur(10px);
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.view-project-btn i {
+	font-size: 16px;
+}
+
+// Project Content
+.project-content {
+	padding: 24px;
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.project-header {
+	margin-bottom: 20px;
+}
+
+// Fixed project date styling for modern cards
+.modern-project-card .project-date {
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	color: white;
+	padding: 6px 16px;
+	border-radius: 20px;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	display: inline-block;
+	margin-bottom: 16px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	position: static;
+	z-index: auto;
+	border: none;
+}
+
+.project-title {
+	font-size: 20px;
+	font-weight: 700;
+	color: #2d3748;
+	margin: 0;
+	line-height: 1.3;
+	letter-spacing: -0.5px;
+}
+
+// Enhanced Technology Badges
+.project-technologies {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin-top: auto;
+}
+
+.technology-badge {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	background: #f7fafc;
+	border: 1px solid #e2e8f0;
+	border-radius: 12px;
+	padding: 8px 12px;
+	font-size: 12px;
+	color: #4a5568;
+	transition: all 0.2s ease;
+	font-weight: 500;
+}
+
+.technology-badge:hover {
+	background: #edf2f7;
+	border-color: #cbd5e0;
+	transform: translateY(-1px);
+}
+
+.technology-badge i {
+	font-size: 14px;
+	color: #667eea;
+}
+
+.tech-name {
+	font-weight: 500;
+}
+
+.more-tech {
+	background: #e2e8f0;
+	color: #718096;
+	font-style: italic;
+	border-color: #cbd5e0;
+}
+
+// Responsive Design
+@media (max-width: 768px) {
+	.modern-project-card {
+		margin-bottom: 20px;
+	}
+	
+	.project-content {
+		padding: 20px;
+	}
+	
+	.project-title {
+		font-size: 18px;
+	}
+	
+	.project-image-container {
+		height: 180px;
+	}
+}
+
+@media (max-width: 576px) {
+	.project-content {
+		padding: 16px;
+	}
+	
+	.project-title {
+		font-size: 16px;
+	}
+	
+	.project-image-container {
+		height: 160px;
 	}
 }

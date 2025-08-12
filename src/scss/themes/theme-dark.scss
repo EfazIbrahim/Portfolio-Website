@@ -164,6 +164,24 @@ body[data-theme="dark"] {
       .project-title-settings {
          color: white;
       }
+      
+      // Technology badges in dark theme
+      .project-technologies {
+         .technology-badge {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: white;
+         }
+         
+         .technology-badge:hover {
+            background: rgba(255, 255, 255, 0.15);
+         }
+         
+         .more-tech {
+            background: rgba(255, 255, 255, 0.2);
+            color: #ccc;
+         }
+      }
    }
 
    #resume {
@@ -199,9 +217,135 @@ body[data-theme="dark"] {
    .modal-inside .modal-content {
       background: #5b5b5b;
       color: white;
+      
+      // Modal technologies in dark theme
+      .modal-technology-badge {
+         background: rgba(255, 255, 255, 0.1);
+         border: 1px solid rgba(255, 255, 255, 0.2);
+         color: white;
+      }
+      
+      .modal-technology-badge:hover {
+         background: rgba(255, 255, 255, 0.15);
+         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+      }
    }
 
    .close-icon {
       color: white;
+   }
+
+   // Dark Theme Styles
+   .navigation-container {
+      background-color: rgba(73, 73, 73, 0.95);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+      border: 1px solid #555;
+   }
+
+   .navigation-button {
+      color: white;
+   }
+
+   .navigation-button:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+   }
+
+   .theme-toggle-label {
+      color: #ccc;
+   }
+
+   .theme-toggle-item {
+      border-top-color: #555;
+   }
+
+   // Skills Section
+   #skills {
+      background: #2d3748;
+   }
+
+   .skill-category {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+   }
+
+   .category-title {
+      color: #fff;
+      border-bottom-color: #fff;
+   }
+
+   .skill-item {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+   }
+
+   .skill-item:hover {
+      background: rgba(255, 255, 255, 0.15);
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+   }
+
+   .skill-name {
+      color: #fff;
+   }
+
+   // Experience Section
+   #experience {
+      background: #2d3748;
+   }
+
+   #experience h1 {
+      color: #fff;
+   }
+
+   // Project Cards - Dark Theme
+   .modern-project-card {
+      background: #4a5568;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+   }
+
+   .modern-project-card:hover {
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+      border-color: rgba(255, 255, 255, 0.2);
+   }
+
+   .project-title {
+      color: #f7fafc;
+   }
+
+   .technology-badge {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: #e2e8f0;
+   }
+
+   .technology-badge:hover {
+      background: rgba(255, 255, 255, 0.15);
+      border-color: rgba(255, 255, 255, 0.3);
+   }
+
+   .technology-badge i {
+      color: #90cdf4;
+   }
+
+   .more-tech {
+      background: rgba(255, 255, 255, 0.15);
+      color: #cbd5e0;
+      border-color: rgba(255, 255, 255, 0.25);
+   }
+
+   // Modal Technologies
+   .modal-technology-badge {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: #e2e8f0;
+   }
+
+   .modal-technology-badge:hover {
+      background: rgba(255, 255, 255, 0.15);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+   }
+
+   .modal-technology-badge i {
+      color: #90cdf4;
    }
 }

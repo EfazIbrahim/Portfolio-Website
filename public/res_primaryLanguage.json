@@ -11,36 +11,132 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Fitness App",
+        "startDate": "2024",
+        "description": "Developed a cross-platform mobile application with React Native for tracking workouts, creating routines, and setting fitness goals. Built a scalable backend with Node.js and AWS Lambda, exposing RESTful APIs for CRUD operations, and used Amazon RDS with PostgreSQL for secure, persistent data storage. Deployed via AWS Amplify for continuous integration and delivery, and conducted thorough testing in Android Studio to ensure a smooth, reliable user experience across devices.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "/images/portfolio/fitness-app/p1.jpg",
+          "/images/portfolio/fitness-app/p2.jpg"
         ],
-        "url": "",
+        "url": "https://github.com/EfazIbrahim/FitnessApp",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-react-original",
+            "name": "React Native"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-nodejs-plain",
+            "name": "Node.js"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "fas fa-server",
+            "name": "AWS Lambda"
+          },
+          {
+            "class": "devicon-postgresql-plain",
+            "name": "PostgreSQL"
+          },
+          {
+            "class": "fas fa-database",
+            "name": "AWS RDS"
+          },
+          {
+            "class": "fas fa-rocket",
+            "name": "AWS Amplify"
+          },
+          {
+            "class": "devicon-androidstudio-plain",
+            "name": "Android Studio"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "Personal Game Review Website",
+        "startDate": "2023",
+        "description": "Created a full-stack web application with a React frontend, Spring Boot backend, and an Express.js server to handle auxiliary API requests. Implemented user authentication, role-based access, and interactive review sections similar to a forum, allowing users to post, comment, and rate games. Designed a secure REST API for data management and integrated dynamic content rendering for an engaging user experience. Deployed the application on AWS for reliable, scalable access.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "/images/portfolio/game-review/p1.jpg",
+          "/images/portfolio/game-review/p2.png"
+        ],
+        "url": "https://github.com/EfazIbrahim/Personal-Game-Review-Website",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-spring-plain",
+            "name": "Spring Boot"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "Express.js"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "fas fa-server",
+            "name": "AWS"
+          }
+        ]
+      },
+      {
+        "title": "Trip Tactics",
+        "startDate": "2024",
+        "description": "Built an AI-powered travel assistant using React.js and Tailwind CSS to recommend optimal rest stops for drivers, achieving over 90% prediction accuracy and reducing user input time by 45% through dynamic routing and an intuitive UI. Designed a scalable backend with Node.js, Express.js, AWS Lambda, and Amazon API Gateway, capable of running 500+ route simulations during testing, and integrated the Google Maps API for precise geolocation-based recommendations. Developed and trained a fatigue prediction model with Python, TensorFlow, and Scikit-learn, reaching 92% confidence on test data by leveraging user profiles and time-based driving patterns.", 
+        "images": [
+          "/images/portfolio/trip-tactics/p1.jpg",
+          "/images/portfolio/trip-tactics/p2.png"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React.js"
+          },
+          {
+            "class": "devicon-tailwindcss-plain",
+            "name": "Tailwind CSS"
+          },
+          {
+            "class": "devicon-nodejs-plain",
+            "name": "Node.js"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "Express.js"
+          },
+          {
+            "class": "fas fa-server",
+            "name": "AWS Lambda"
+          },
+          {
+            "class": "fas fa-exchange-alt",
+            "name": "API Gateway"
+          },
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-tensorflow-original",
+            "name": "TensorFlow"
+          },
+          {
+            "class": "devicon-python-plain",
+            "name": "Scikit-learn"
+          }
+        ]
+      },
+      {
+        "title": "DegreeBulls",
+        "startDate": "2025",
+        "description": "Developed a university course management platform for students, instructors, and faculty, streamlining course enrollment, progress tracking, and academic planning. Built the frontend in React for a responsive, user-friendly interface and leveraged Google Firebase for authentication, real-time database management, and secure data storage. Implemented role-based access to provide tailored functionality for different user types and integrated features for managing grades, assignments, and schedules. Deployed on Google Firebase Hosting for fast, reliable, and scalable access.", 
+        "images": [
+          "/images/portfolio/degree-bulls/p1.jpg",
+          "/images/portfolio/degree-bulls/p2.png"
         ],
         "url": "https://github.com",
         "technologies": [
@@ -49,32 +145,16 @@
             "name": "React"
           },
           {
+            "class": "devicon-firebase-plain",
+            "name": "Firebase"
+          },
+          {
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-googlecloud-plain",
+            "name": "Firebase Hosting"
           }
         ]
       }
@@ -89,7 +169,7 @@
           "Spring Boot",
           "MongoDB",
           "Docker",
-          "OCP",
+          "OpenShift",
           "JMeter",
           "BlazeMeter",
           "Grafana",
@@ -110,7 +190,7 @@
           "AWS Lambda",
           "AWS RDS"
         ],
-        "description": "Built a web application that streamlined deployments for 100+ internal users by integrating the GitLab API, cutting deployment time by over 50%. Developed reusable React components for USAA’s shared UI library, managed data with AWS Lambda and Amazon RDS, and collaborated in Agile teams to deliver reliable, scalable solutions."
+        "description": "Built a web application that streamlined deployments for 100+ internal users by integrating the GitLab API, cutting deployment time by over 50%. Developed reusable React components for USAA's shared UI library, managed data with AWS Lambda and Amazon RDS, and collaborated in Agile teams to deliver reliable, scalable solutions."
       }
     ]
   }

@@ -20,6 +20,14 @@ body[data-theme="light"] {
        background-color: #f0f0f0;
     }
 
+    .theme-toggle-label {
+		color: #666;
+	}
+
+	.theme-toggle-item {
+		border-top-color: #f0f0f0;
+	}
+
     #experience {
        background-color: #e9d5a1;
        h1 span {
@@ -66,7 +74,7 @@ body[data-theme="light"] {
     }
 
     #skills {
-       background-color: #e9d5a1;
+       background: #f8f9fa;
        h1 {
           padding-top: 5%;
           font: 18px/24px 'opensans-bold', sans-serif;
@@ -77,9 +85,8 @@ body[data-theme="light"] {
        }
        
        .skill-category {
-          background-color: white;
-          border: 1px solid #f0f0f0;
-          box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+          background: rgba(0, 0, 0, 0.05);
+          border: 1px solid rgba(0, 0, 0, 0.1);
        }
        
        .category-title {
@@ -88,13 +95,13 @@ body[data-theme="light"] {
        }
        
        .skill-item {
-          background-color: #f8f8f8;
-          border: 1px solid #e0e0e0;
+          background: rgba(0, 0, 0, 0.05);
+          border: 1px solid rgba(0, 0, 0, 0.1);
        }
        
        .skill-item:hover {
-          background-color: #f0f0f0;
-          box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+          background: rgba(0, 0, 0, 0.08);
+          box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
        }
        
        .skill-name {
@@ -108,4 +115,41 @@ body[data-theme="light"] {
           color: black;
        }
     }
+
+    // Project Cards - Light Theme
+	.modern-project-card {
+		background: #ffffff;
+		border: 1px solid rgba(0, 0, 0, 0.05);
+		box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+	}
+
+	.modern-project-card:hover {
+		box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+		border-color: rgba(0, 0, 0, 0.1);
+	}
+
+	.project-title {
+		color: #2d3748;
+	}
+
+	.technology-badge {
+		background: #f7fafc;
+		border: 1px solid #e2e8f0;
+		color: #4a5568;
+	}
+
+	.technology-badge:hover {
+		background: #edf2f7;
+		border-color: #cbd5e0;
+	}
+
+	.technology-badge i {
+		color: #667eea;
+	}
+
+	.more-tech {
+		background: #e2e8f0;
+		color: #718096;
+		border-color: #cbd5e0;
+	}
 }

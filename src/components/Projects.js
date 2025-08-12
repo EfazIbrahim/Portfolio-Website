@@ -16,32 +16,55 @@ class Projects extends Component {
     };
 
     let detailsModalClose = () => this.setState({ detailsModalShow: false });
+    
     if (this.props.resumeProjects && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.projects;
       var projects = this.props.resumeProjects.map(function (projects) {
         return (
           <div
-            className="col-sm-12 col-md-6 col-lg-4"
+            className="col-sm-12 col-md-6 col-lg-6"
             key={projects.title}
             style={{ cursor: "pointer" }}
           >
-            <span className="portfolio-item d-block">
-              <div className="foto" onClick={() => detailsModalShow(projects)}>
-                <div>
-                  <img
-                    src={projects.images[0]}
-                    alt="projectImages"
-                    height="230"
-                    style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
-                  />
-                  <span className="project-date">{projects.startDate}</span>
-                  <br />
-                  <p className="project-title-settings mt-3">
-                    {projects.title}
-                  </p>
+            <div className="modern-project-card" onClick={() => detailsModalShow(projects)}>
+              <div className="project-image-container">
+                <img
+                  src={projects.images[0]}
+                  alt="projectImages"
+                  className="project-image"
+                />
+                <div className="project-overlay">
+                  <div className="view-project-btn">
+                    <i className="fas fa-eye"></i>
+                    <span>View Project</span>
+                  </div>
                 </div>
               </div>
-            </span>
+              
+              <div className="project-content">
+                <div className="project-header">
+                  <span className="project-date">{projects.startDate}</span>
+                  <h3 className="project-title">{projects.title}</h3>
+                </div>
+                
+                {/* Technologies Display */}
+                {projects.technologies && projects.technologies.length > 0 && (
+                  <div className="project-technologies">
+                    {projects.technologies.slice(0, 4).map((tech, index) => (
+                      <span key={index} className="technology-badge">
+                        <i className={tech.class}></i>
+                        <span className="tech-name">{tech.name}</span>
+                      </span>
+                    ))}
+                    {projects.technologies.length > 4 && (
+                      <span className="technology-badge more-tech">
+                        +{projects.technologies.length - 4} more
+                      </span>
+                    )}
+                  </div>
+                )}
+              </div>
+            </div>
           </div>
         );
       });
