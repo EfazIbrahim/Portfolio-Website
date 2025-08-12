@@ -1,0 +1,946 @@
+@import '../src/scss/themes/theme-dark.scss';
+@import '../src/scss/themes/theme-light.scss';
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
+
+html {
+	font-size: 62.5%;
+	-webkit-font-smoothing: antialiased;
+	margin: 0;
+	padding: 0;
+}
+
+.aligner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.title-container {
+	height: 50px;
+}
+
+.title-styles {
+	font-family: 'Raleway', sans-serif;
+	font-size: 250%;
+}
+
+.header-icon {
+	height: 150px;
+	width: 150px;
+}
+
+header {
+	position: relative;
+	height: 520px;
+	min-height: 450px;
+	width: 100%;
+	background-size: cover;
+	-webkit-background-size: cover;
+	text-align: center;
+	overflow: hidden;
+	background-color: #e9d5a1;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top: 150px;
+	padding-bottom: 0;
+}
+
+.language-icon {
+	font-size: 50px;
+	cursor: pointer;
+}
+
+.skills-tile {
+	background-color: transparentize(#F8F5F4, 0.95);
+	padding: 10px 10px 5px 10px;
+	width: 100px;
+	margin: 5px 0 5px 0;
+	border-radius: 8px;
+}
+
+.language {
+	font-size: 25px;
+	background-color: #e9d5a1;
+	padding-bottom: 10px;
+	padding-top: 80px;
+}
+
+header h1 {
+	font-size: 400%;
+	text-align: center;
+	font-weight: 600 !important;
+	color: #353239;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin: 0 auto 18px auto;
+	width: 100%;
+}
+
+.slider-image {
+	border: 5px solid #D7CAAA;
+}
+
+.slider-tab {
+	background-color: #D7CAAA;
+	height: 25px;
+}
+
+.slider-iconfiy {
+	margin-top: 10px;
+}
+
+.styles_typicalWrapper__1_Uvh::after {
+	cursor: none !important;
+	display: none;
+}
+
+#about {
+	background: #fff;
+	overflow: hidden;
+}
+
+#about h1 {
+	padding-top: 5%;
+	font: 18px/24px 'opensans-bold', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: black;
+	text-align: center;
+}
+
+#experience {
+	overflow: hidden;
+}
+
+#experience h1 {
+	padding-top: 5%;
+	font: 18px/24px 'opensans-bold', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: black;
+	text-align: center;
+}
+
+#portfolio h1 {
+	padding-top: 5%;
+	font: 18px/24px 'opensans-bold', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: black;
+	text-align: center;
+}
+
+.foto img {
+	display: block;
+	width: 100%;
+}
+
+.polaroid img {
+	display: block;
+	max-width: 200px;
+}
+
+// Modal Technologies Styling (needed for ProjectDetailsModal)
+.modal-technologies-inline {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin-top: 20px;
+	justify-content: flex-start;
+}
+
+.modal-technology-badge {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	background: rgba(0, 0, 0, 0.1);
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 25px;
+	padding: 8px 15px;
+	font-size: 0.9rem;
+	color: #333;
+	transition: all 0.3s ease;
+}
+
+.modal-technology-badge:hover {
+	background: rgba(0, 0, 0, 0.15);
+	transform: translateY(-2px);
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.modal-technology-badge i {
+	font-size: 1.2rem;
+}
+
+.modal-tech-name {
+	font-weight: 500;
+}
+
+.polaroid span {
+	background: #ffffff;
+	display: inline-block;
+	margin: 55px 75px 30px;
+	padding: 15px 15px 30px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+	box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+	-webkit-transition: all .20s linear;
+	-moz-transition: all .20s linear;
+	transition: all .20s linear;
+	z-index: 0;
+	position: relative;
+}
+
+.link-href {
+	color: black;
+}
+
+.wave {
+	font-size: 160%;
+}
+
+.font-trebuchet {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#preview {
+	width: 500px;
+	background-color: #ebeaf5;
+	padding: 15px;
+	position: relative;
+	margin-bottom: 15%;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#resume {
+	background: #efe1bd;
+}
+
+.experience-icon {
+	font-size: 300%;
+	margin-top: 25%;
+	text-align: center;
+}
+
+.main-badge {
+	font-size: 13px !important;
+	text-align: left !important;
+	padding: 5px 8px 5px 8px !important;
+	vertical-align: baseline;
+	background-color: #AE944F !important;
+	color: white;
+	font-weight: lighter !important;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.experience-badge {
+	font-size: 11px !important;
+	text-align: left !important;
+	padding: 5px 8px 5px 8px !important;
+	vertical-align: baseline;
+	background-color: #f9f5e9 !important;
+	color: black;
+	font-weight: lighter !important;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.vertical-timeline-element-date {
+	padding: 0 !important;
+	margin: 0 !important;
+	font-size: 1.8rem !important;
+}
+
+@media only screen and (max-width: 1170px) {
+	.experience-icon {
+		font-size: 170%;
+		margin-top: 27%;
+		text-align: center;
+	}
+}
+
+.modal-inside .modal-content {
+	background: white;
+}
+
+// Custom modal sizing for project details
+.modal-inside .modal-md {
+	max-width: 65%;
+	width: 65%;
+}
+
+.modal-inside .modal-md .modal-body {
+	padding: 1rem;
+}
+
+.modal-inside .modal-md .modal-content {
+	min-height: 50vh;
+}
+
+// Improve modal layout
+.modal-inside .col-md-10 {
+	max-width: 100%;
+}
+
+.modal-inside .slider-image {
+	margin-bottom: 1rem;
+	width: 100%;
+}
+
+.modal-inside .slider-image img,
+.modal-inside .slider-image div,
+.modal-inside .awssld__wrapper,
+.modal-inside .awssld__content {
+	width: 100%;
+	height: auto;
+	max-height: 300px;
+	object-fit: contain;
+}
+
+// Target Awesome Slider specifically
+.modal-inside .awssld {
+	width: 100%;
+	height: auto;
+}
+
+.modal-inside .awssld__wrapper {
+	height: auto !important;
+}
+
+.modal-inside .awssld__content {
+	height: auto !important;
+}
+
+.modal-inside .modal-description {
+	font-size: 14px;
+	line-height: 1.6;
+	margin-bottom: 1rem;
+}
+
+// Make project title bigger
+.modal-inside h3 {
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin-bottom: 1rem;
+}
+
+// Responsive modal sizing
+@media (max-width: 1200px) {
+	.modal-inside .modal-md {
+		max-width: 75%;
+		width: 75%;
+	}
+}
+
+@media (max-width: 768px) {
+	.modal-inside .modal-md {
+		max-width: 90%;
+		width: 90%;
+		margin: 0;
+	}
+	
+	.modal-inside .modal-md .modal-body {
+		padding: 0.8rem;
+	}
+	
+	.modal-inside .modal-md .modal-content {
+		min-height: 40vh;
+	}
+	
+	.modal-inside .slider-image {
+		width: 100%;
+	}
+	
+	.modal-inside .slider-image img,
+	.modal-inside .slider-image div,
+	.modal-inside .awssld__wrapper,
+	.modal-inside .awssld__content {
+		width: 100%;
+		height: auto;
+		max-height: 300px;
+		object-fit: contain;
+	}
+}
+
+.bars {
+	width: 95%;
+	float: left;
+	padding: 0;
+	text-align: left;
+}
+
+.bars .skills {
+	margin-top: 36px;
+	list-style: none;
+}
+
+.bars li {
+	position: relative;
+	margin-bottom: 60px;
+	background: #ccc;
+	height: 42px;
+	border-radius: 3px;
+}
+
+.bars li em {
+	font: 15px 'opensans-bold', sans-serif;
+	color: #313131;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: normal;
+	position: relative;
+	top: -36px;
+}
+
+.bar-expand {
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin: 0;
+	padding-right: 24px;
+	background: #313131;
+	display: inline-block;
+	height: 42px;
+	line-height: 42px;
+	border-radius: 3px 0 0 3px;
+}
+
+.modal-close {
+	text-align: right;
+	padding: 10px 15px 10px 15px;
+	cursor: pointer;
+}
+
+.close-icon {
+	color: black;
+	font-weight: lighter !important;
+}
+
+.modal-description {
+	text-align: justify;
+	padding: 5px 5px 0 5px;
+	margin-bottom: 20px;
+	font-size: 12px;
+}
+
+.awssld__next {
+	outline: none !important;
+}
+
+.awssld__prev {
+	outline: none !important;
+}
+
+.loader-bar-color {
+	color: black !important;
+}
+
+#portfolio {
+	background: #fff;
+	overflow: hidden;
+	padding-left: 150px; // Increased from 120px to 150px for more left spacing
+	padding-bottom: 50px; // Add bottom padding under the cards
+}
+
+.portfolio-item {
+	max-width: 100%;
+	margin-bottom: 20px; // Reduced from 30px for tighter spacing
+	text-align: center;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption {
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+	opacity: 0;
+	background-color: rgba(51, 51, 51, 0.9);
+}
+
+.portfolio .portfolio-item .portfolio-item-caption:hover {
+	opacity: 1;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+	font-size: 1.5rem;
+}
+
+@media (min-width: 576px) {
+	.portfolio .closeButtonResponsive {
+		display: block;
+	}
+	.portfolio .portfolio-item {
+		margin-bottom: 25px; // Reduced from 40px for tighter spacing
+	}
+}
+
+#skills {
+	background: transparent;
+	min-height: 200px;
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 10%;
+}
+
+.section-title {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	font: 18px/24px 'opensans-bold', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #fff;
+	text-align: center;
+}
+
+.skill-icon {
+	font-size: 180%;
+	color: white;
+	text-align: center;
+	position: relative;
+}
+
+footer {
+	background: #1F1F1F;
+	min-height: 100px;
+	width: 100%;
+	overflow: hidden;
+	font-size: 14px;
+	color: white;
+	position: relative;
+	text-align: center;
+}
+
+footer a,
+footer a:visited {
+	color: #fff;
+}
+
+footer a:hover,
+footer a:focus {
+	color: #fff;
+}
+
+.social-links {
+	margin-top: 50px;
+	font-size: 22px;
+}
+
+// Navigation Styles
+.navigation-container {
+	position: fixed;
+	left: 25px;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 1000;
+	border-radius: 20px;
+	padding: 30px 25px;
+	backdrop-filter: blur(10px);
+	transition: all 0.3s ease;
+}
+
+.navigation-light {
+	background-color: rgba(255, 255, 255, 0.95);
+	box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+	border: 1px solid #f0f0f0;
+}
+
+.navigation-dark {
+	background-color: rgba(73, 73, 73, 0.95);
+	box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+	border: 1px solid #555;
+}
+
+.navigation-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navigation-item {
+	margin-bottom: 20px;
+}
+
+.navigation-item:last-child {
+	margin-bottom: 0;
+}
+
+.navigation-button {
+	background: none;
+	border: none;
+	cursor: pointer;
+	padding: 12px 18px;
+	border-radius: 12px;
+	font-size: 1.1rem;
+	font-weight: 500;
+	transition: all 0.3s ease;
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	width: 100%;
+	text-align: left;
+}
+
+.navigation-button-light {
+	color: #333;
+}
+
+.navigation-button-light:hover {
+	background-color: #f0f0f0;
+}
+
+.navigation-button-dark {
+	color: white;
+}
+
+.navigation-button-dark:hover {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.navigation-icon {
+	font-size: 1.5rem;
+}
+
+// Theme Toggle Styles
+.theme-toggle-item {
+	margin-top: 20px;
+	padding-top: 20px;
+	border-top: 1px solid;
+}
+
+.navigation-light .theme-toggle-item {
+	border-top-color: #f0f0f0;
+}
+
+.navigation-dark .theme-toggle-item {
+	border-top-color: #555;
+}
+
+.theme-toggle-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+.theme-toggle-label {
+	font-size: 0.9rem;
+	font-weight: 500;
+	text-align: center;
+}
+
+.navigation-light .theme-toggle-label {
+	color: #666;
+}
+
+.navigation-dark .theme-toggle-label {
+	color: #ccc;
+}
+
+.react-switch {
+	margin: 0 auto;
+}
+
+// Enhanced Skills Styles
+.skill-category {
+	margin-bottom: 3rem;
+	margin-left: 150px;
+	margin-right: 120px;
+	padding: 2rem;
+	background: rgba(255, 255, 255, 0.05);
+	border-radius: 15px;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	max-width: calc(100% - 270px);
+}
+
+.category-title {
+	color: #fff;
+	font-size: 2.2rem;
+	font-weight: 600;
+	margin-bottom: 2rem;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-bottom: 2px solid #fff;
+	padding-bottom: 1rem;
+}
+
+.skills-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 1.5rem;
+	max-width: 100%;
+}
+
+.skill-item {
+	background: rgba(255, 255, 255, 0.1);
+	padding: 1.5rem;
+	border-radius: 12px;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	transition: all 0.3s ease;
+	text-align: center;
+}
+
+.skill-item:hover {
+	background: rgba(255, 255, 255, 0.15);
+	transform: translateY(-2px);
+	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.skill-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.8rem;
+}
+
+.skill-name {
+	color: #fff;
+	font-size: 1.1rem;
+	font-weight: 500;
+	text-align: center;
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+	.skills-grid {
+		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+	}
+	
+	.skill-category {
+		padding: 1.5rem;
+		margin-left: 120px;
+		margin-right: 80px;
+		max-width: calc(100% - 200px);
+	}
+	
+	.category-title {
+		font-size: 1.8rem;
+	}
+}
+
+@media (max-width: 480px) {
+	.skill-category {
+		margin-left: 100px;
+		margin-right: 60px;
+		max-width: calc(100% - 160px);
+	}
+	
+	.skills-grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+// Modern Project Cards - Complete Redesign
+.modern-project-card {
+	background: #ffffff;
+	border-radius: 16px;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+	overflow: hidden;
+	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+	cursor: pointer;
+	margin-bottom: 30px;
+	margin-left: 0; // Remove left margin since we have section padding
+	margin-right: 0; // Remove right margin since we have column padding
+	border: 1px solid rgba(0, 0, 0, 0.05);
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+// Fix grid container to prevent nav bar overlap
+#portfolio .row {
+	margin-left: 0; // Remove default left margin
+	margin-right: 0; // Remove default right margin
+}
+
+#portfolio .col-sm-12,
+#portfolio .col-md-6,
+#portfolio .col-lg-6 {
+	padding-left: 15px; // Add left padding to columns
+	padding-right: 15px; // Add right padding to columns
+}
+
+.modern-project-card:hover {
+	transform: translateY(-8px);
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+	border-color: rgba(0, 0, 0, 0.1);
+}
+
+// Project Image Container
+.project-image-container {
+	position: relative;
+	overflow: hidden;
+	height: 280px; // Increased from 220px to 280px to prevent photo cutoff
+	background: #f8f9fa;
+}
+
+.project-image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 0.3s ease;
+}
+
+.modern-project-card:hover .project-image {
+	transform: scale(1.05);
+}
+
+// Project Overlay
+.project-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.7);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+
+.modern-project-card:hover .project-overlay {
+	opacity: 1;
+}
+
+.view-project-btn {
+	background: rgba(255, 255, 255, 0.95);
+	color: #333;
+	padding: 12px 24px;
+	border-radius: 25px;
+	font-weight: 600;
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	backdrop-filter: blur(10px);
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.view-project-btn i {
+	font-size: 16px;
+}
+
+// Project Content
+.project-content {
+	padding: 24px;
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.project-header {
+	margin-bottom: 20px;
+}
+
+// Fixed project date styling for modern cards
+.modern-project-card .project-date {
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	color: white;
+	padding: 6px 16px;
+	border-radius: 20px;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	display: inline-block;
+	margin-bottom: 16px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	position: static;
+	z-index: auto;
+	border: none;
+}
+
+.project-title {
+	font-size: 20px;
+	font-weight: 700;
+	color: #2d3748;
+	margin: 0;
+	line-height: 1.3;
+	letter-spacing: -0.5px;
+}
+
+// Enhanced Technology Badges
+.project-technologies {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin-top: auto;
+}
+
+.technology-badge {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	background: #f7fafc;
+	border: 1px solid #e2e8f0;
+	border-radius: 12px;
+	padding: 8px 12px;
+	font-size: 12px;
+	color: #4a5568;
+	transition: all 0.2s ease;
+	font-weight: 500;
+}
+
+.technology-badge:hover {
+	background: #edf2f7;
+	border-color: #cbd5e0;
+	transform: translateY(-1px);
+}
+
+.technology-badge i {
+	font-size: 14px;
+	color: #667eea;
+}
+
+.tech-name {
+	font-weight: 500;
+}
+
+.more-tech {
+	background: #e2e8f0;
+	color: #718096;
+	font-style: italic;
+	border-color: #cbd5e0;
+}
+
+// Responsive Design
+@media (max-width: 768px) {
+	.modern-project-card {
+		margin-bottom: 20px;
+	}
+	
+	.project-content {
+		padding: 20px;
+	}
+	
+	.project-title {
+		font-size: 18px;
+	}
+	
+	.project-image-container {
+		height: 180px;
+	}
+}
+
+@media (max-width: 576px) {
+	.project-content {
+		padding: 16px;
+	}
+	
+	.project-title {
+		font-size: 16px;
+	}
+	
+	.project-image-container {
+		height: 160px;
+	}
+}

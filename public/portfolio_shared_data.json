@@ -1,0 +1,193 @@
+{
+    "basic_info": {
+      "name": "Efaz Ibrahim",
+      "titles": [ "Full Stack Developer", "Back-End Developer", "Front-End Developer", "Mobile App Developer" ],
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com/EfazIbrahim",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com/efazibrahim/",
+          "class": "fab fa-instagram"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/efaz-ibrahim/",
+          "class": "fab fa-linkedin"
+        }
+      ],
+      "image": "myProfile.jpg"
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "Java",
+          "class": "devicon-java-plain",
+          "level": "90"
+        },
+        {
+          "name": "Python",
+          "class": "devicon-python-plain",
+          "level": "85"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "90"
+        },
+        {
+          "name": "TypeScript",
+          "class": "devicon-typescript-plain",
+          "level": "85"
+        },
+        {
+          "name": "C",
+          "class": "devicon-c-plain",
+          "level": "80"
+        },
+        {
+          "name": "C++",
+          "class": "devicon-cplusplus-plain",
+          "level": "80"
+        },
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain",
+          "level": "95"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain",
+          "level": "90"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-original",
+          "level": "90"
+        },
+        {
+          "name": "React Native",
+          "class": "devicon-react-original",
+          "level": "85"
+        },
+        {
+          "name": "Node.js",
+          "class": "devicon-nodejs-plain",
+          "level": "85"
+        },
+        {
+          "name": "Express.js",
+          "class": "devicon-express-original",
+          "level": "80"
+        },
+        {
+          "name": "Spring Boot",
+          "class": "devicon-spring-plain",
+          "level": "85"
+        },
+        {
+          "name": "Tailwind CSS",
+          "class": "devicon-tailwindcss-plain",
+          "level": "80"
+        },
+        {
+          "name": "TensorFlow",
+          "class": "devicon-tensorflow-original",
+          "level": "75"
+        },
+        {
+          "name": "Scikit-learn",
+          "class": "devicon-python-plain",
+          "level": "75"
+        },
+        {
+          "name": "OpenCV",
+          "class": "devicon-python-plain",
+          "level": "70"
+        },
+        {
+          "name": "PostgreSQL",
+          "class": "devicon-postgresql-plain",
+          "level": "85"
+        },
+        {
+          "name": "MongoDB",
+          "class": "devicon-mongodb-plain",
+          "level": "80"
+        },
+        {
+          "name": "Amazon RDS",
+          "class": "devicon-amazonwebservices-original",
+          "level": "75"
+        },
+        {
+          "name": "Firebase",
+          "class": "devicon-firebase-plain",
+          "level": "80"
+        },
+        {
+          "name": "Firestore",
+          "class": "devicon-firebase-plain",
+          "level": "80"
+        },
+        {
+          "name": "AWS",
+          "class": "devicon-amazonwebservices-original",
+          "level": "80"
+        },
+        {
+          "name": "GCP",
+          "class": "devicon-googlecloud-plain",
+          "level": "75"
+        },
+        {
+          "name": "Git",
+          "class": "devicon-git-plain",
+          "level": "90"
+        },
+        {
+          "name": "GitHub",
+          "class": "fab fa-github",
+          "level": "90"
+        },
+        {
+          "name": "JMeter",
+          "class": "devicon-apache-plain",
+          "level": "70"
+        },
+        {
+          "name": "Blaze Meter",
+          "class": "devicon-apache-plain",
+          "level": "70"
+        },
+        {
+          "name": "Postman",
+          "class": "devicon-postman-plain",
+          "level": "85"
+        },
+        {
+          "name": "Swagger",
+          "class": "devicon-swagger-plain",
+          "level": "80"
+        },
+        {
+          "name": "IntelliJ IDEA",
+          "class": "devicon-intellij-plain",
+          "level": "85"
+        },
+        {
+          "name": "Android Studio",
+          "class": "devicon-androidstudio-plain",
+          "level": "80"
+        },
+        {
+          "name": "Grafana",
+          "class": "devicon-grafana-original",
+          "level": "70"
+        }
+      ]
+    }
+  }

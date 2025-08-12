@@ -1,0 +1,196 @@
+{
+    "basic_info": {
+      "description_header": " Hi 👋",
+      "description": "I'm Efaz Ibrahim, a passionate Software Engineer and Computer Science student at the University of South Florida, graduating in December 2025. I thrive at the intersection of backend systems, cloud technologies, and intuitive user interfaces, building solutions that are both scalable and impactful. I've gained hands-on experience through internships at Wells Fargo and USAA, where I built full-stack applications with innovative front ends and robust backends, integrated real-time dashboards, optimized deployment pipelines, and developed reusable UI components used enterprise-wide. My work has spanned Spring Boot, MongoDB, AWS, GCP, React, and Node.js, with a strong emphasis on performance optimization, automation, and clean architecture.\n\nBeyond my professional experience, I enjoy taking on challenging projects, from creating an AI-powered trip planning tool to developing a cross-platform workout tracking app. I'm driven by curiosity, problem-solving, and the satisfaction of turning ideas into reality—whether through enterprise solutions or innovative side projects.\n\nWhen I'm not coding, I'm a regular at the gym, play a variety of sports, and enjoy traveling to explore new places and cultures.",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "Fitness App",
+        "startDate": "2024",
+        "description": "Developed a cross-platform mobile application with React Native for tracking workouts, creating routines, and setting fitness goals. Built a scalable backend with Node.js and AWS Lambda, exposing RESTful APIs for CRUD operations, and used Amazon RDS with PostgreSQL for secure, persistent data storage. Deployed via AWS Amplify for continuous integration and delivery, and conducted thorough testing in Android Studio to ensure a smooth, reliable user experience across devices.",
+        "images": [
+          "/images/portfolio/fitness-app/p1.jpg",
+          "/images/portfolio/fitness-app/p2.jpg"
+        ],
+        "url": "https://github.com/EfazIbrahim/FitnessApp",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React Native"
+          },
+          {
+            "class": "devicon-nodejs-plain",
+            "name": "Node.js"
+          },
+          {
+            "class": "fas fa-server",
+            "name": "AWS Lambda"
+          },
+          {
+            "class": "devicon-postgresql-plain",
+            "name": "PostgreSQL"
+          },
+          {
+            "class": "fas fa-database",
+            "name": "AWS RDS"
+          },
+          {
+            "class": "fas fa-rocket",
+            "name": "AWS Amplify"
+          },
+          {
+            "class": "devicon-androidstudio-plain",
+            "name": "Android Studio"
+          }
+        ]
+      },
+      {
+        "title": "Personal Game Review Website",
+        "startDate": "2023",
+        "description": "Created a full-stack web application with a React frontend, Spring Boot backend, and an Express.js server to handle auxiliary API requests. Implemented user authentication, role-based access, and interactive review sections similar to a forum, allowing users to post, comment, and rate games. Designed a secure REST API for data management and integrated dynamic content rendering for an engaging user experience. Deployed the application on AWS for reliable, scalable access.",
+        "images": [
+          "/images/portfolio/game-review/p1.jpg",
+          "/images/portfolio/game-review/p2.png"
+        ],
+        "url": "https://github.com/EfazIbrahim/Personal-Game-Review-Website",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-spring-plain",
+            "name": "Spring Boot"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "Express.js"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "fas fa-server",
+            "name": "AWS"
+          }
+        ]
+      },
+      {
+        "title": "Trip Tactics",
+        "startDate": "2024",
+        "description": "Built an AI-powered travel assistant using React.js and Tailwind CSS to recommend optimal rest stops for drivers, achieving over 90% prediction accuracy and reducing user input time by 45% through dynamic routing and an intuitive UI. Designed a scalable backend with Node.js, Express.js, AWS Lambda, and Amazon API Gateway, capable of running 500+ route simulations during testing, and integrated the Google Maps API for precise geolocation-based recommendations. Developed and trained a fatigue prediction model with Python, TensorFlow, and Scikit-learn, reaching 92% confidence on test data by leveraging user profiles and time-based driving patterns.", 
+        "images": [
+          "/images/portfolio/trip-tactics/p1.jpg",
+          "/images/portfolio/trip-tactics/p2.png"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React.js"
+          },
+          {
+            "class": "devicon-tailwindcss-plain",
+            "name": "Tailwind CSS"
+          },
+          {
+            "class": "devicon-nodejs-plain",
+            "name": "Node.js"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "Express.js"
+          },
+          {
+            "class": "fas fa-server",
+            "name": "AWS Lambda"
+          },
+          {
+            "class": "fas fa-exchange-alt",
+            "name": "API Gateway"
+          },
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-tensorflow-original",
+            "name": "TensorFlow"
+          },
+          {
+            "class": "devicon-python-plain",
+            "name": "Scikit-learn"
+          }
+        ]
+      },
+      {
+        "title": "DegreeBulls",
+        "startDate": "2025",
+        "description": "Developed a university course management platform for students, instructors, and faculty, streamlining course enrollment, progress tracking, and academic planning. Built the frontend in React for a responsive, user-friendly interface and leveraged Google Firebase for authentication, real-time database management, and secure data storage. Implemented role-based access to provide tailored functionality for different user types and integrated features for managing grades, assignments, and schedules. Deployed on Google Firebase Hosting for fast, reliable, and scalable access.", 
+        "images": [
+          "/images/portfolio/degree-bulls/p1.jpg",
+          "/images/portfolio/degree-bulls/p2.png"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-firebase-plain",
+            "name": "Firebase"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-googlecloud-plain",
+            "name": "Firebase Hosting"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Wells Fargo",
+        "title": "Software Engineering Intern",
+        "years": "May 2025 - August 2025",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "MongoDB",
+          "Docker",
+          "OpenShift",
+          "JMeter",
+          "BlazeMeter",
+          "Grafana",
+          "Google Cloud Platform",
+          "Harness"
+        ],
+        "description": "Developed robust backend services to aggregate API metrics from Splunk and Apigee into MongoDB, enabling real-time visualization in Grafana. Improved system reliability through load testing, streamlined OpenShift deployments, and collaborated in Agile sprints to deliver scalable enterprise solutions."
+      },
+      {
+        "company": "USAA",
+        "title": "Software Engineering Intern",
+        "years": "May 2024 - August 2024",
+        "technologies": [
+          "React",
+          "Node.js",
+          "SQL",
+          "AWS",
+          "AWS Lambda",
+          "AWS RDS"
+        ],
+        "description": "Built a web application that streamlined deployments for 100+ internal users by integrating the GitLab API, cutting deployment time by over 50%. Developed reusable React components for USAA's shared UI library, managed data with AWS Lambda and Amazon RDS, and collaborated in Agile teams to deliver reliable, scalable solutions."
+      }
+    ]
+  }

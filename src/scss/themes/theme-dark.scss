@@ -1,0 +1,351 @@
+body[data-theme="dark"] {  
+
+   @import '../dark-slider.scss';
+
+   .slider-tab {
+      background-color: #8C8C8C;
+   }
+
+   // Navigation styles for dark theme
+   .navigation-container {
+      background-color: rgba(73, 73, 73, 0.95);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+      border: 1px solid #555;
+   }
+
+   .navigation-button {
+      color: white;
+   }
+
+   .navigation-button:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+   }
+
+   .title-styles {
+      color: white;
+   }
+
+   .header-icon {
+      color: #3C342C;
+      opacity: 0.8;
+   }
+
+   .slider-image {
+      border: 5px solid #8C8C8C;
+   }
+
+   .language {
+      background-color: #494949;
+   }
+
+   .link-href {
+      color: white;
+   }
+
+   .project-date {
+      background-color: #918e97;
+      color: white;
+   }
+
+   header {
+      background-color: #494949;
+      h1 {
+         color: white;
+      }
+   }
+
+   #about {
+      background-color: #7f7f7f;
+      h1 span {
+         color: white;
+      }
+      .polaroid span {
+         background:  #6d6d6d;
+      }
+      .card {
+         background: #6d6d6d;
+         color: white;
+      }
+   }
+
+   #experience {
+      background-color: #494949;
+      h1 span {
+         color: white;
+      }
+      
+      .experience-card {
+         background-color: #6d6d6d;
+         border: 1px solid #555;
+         box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+      }
+      
+      .experience-card h3 {
+         color: white;
+      }
+      
+      .experience-card h4 {
+         color: #e0e0e0;
+      }
+      
+      .experience-card p {
+         color: #d0d0d0;
+      }
+      
+      .experience-card h5 {
+         color: white;
+      }
+      
+      .experience-card h6 {
+         color: white;
+      }
+      
+      .experience-card ul {
+         color: white;
+      }
+      
+      .experience-card li {
+         color: white;
+      }
+      
+      .experience-card ul li::marker {
+         color: white;
+      }
+   }
+
+   #skills {
+      background-color: #494949;
+      h1 {
+         padding-top: 5%;
+         font: 18px/24px 'opensans-bold', sans-serif;
+         text-transform: uppercase;
+         letter-spacing: 3px;
+         color: white;
+         text-align: center;
+      }
+      
+      .skill-category {
+         background-color: #6d6d6d;
+         border: 1px solid #555;
+         box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+      }
+      
+      .category-title {
+         color: white;
+         border-bottom-color: white;
+      }
+      
+      .skill-item {
+         background-color: #5a5a5a;
+         border: 1px solid #444;
+      }
+      
+      .skill-item:hover {
+         background-color: #666;
+         box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+      }
+      
+      .skill-name {
+         color: white;
+      }
+   }
+
+   #portfolio {
+      background: #7f7f7f;
+      h1 span {
+         color: white;
+      }
+      .section-title {
+         color: white !important;
+      }
+      .foto div {
+         background: #6d6d6d;
+      }
+      .project-title-settings {
+         color: white;
+      }
+      
+      // Technology badges in dark theme
+      .project-technologies {
+         .technology-badge {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: white;
+         }
+         
+         .technology-badge:hover {
+            background: rgba(255, 255, 255, 0.15);
+         }
+         
+         .more-tech {
+            background: rgba(255, 255, 255, 0.2);
+            color: #ccc;
+         }
+      }
+   }
+
+   #resume {
+      filter: brightness(80%);
+      background: #5b5b5b;
+      .section-title {
+         color: white !important;
+      }
+
+      .experience-badge {
+         background: #919191 !important;
+         color: white;
+      }
+
+      .main-badge {
+         background: #919191 !important;
+      }
+
+      .vertical-timeline-element-date {
+         color: white;
+      }
+
+      .vertical-timeline-element-icon {
+         background: #919191 !important;
+      }
+      @media only screen and (max-width: 1169px) { 
+         .vertical-timeline-element-date {
+            color: black;
+         }
+      }
+   }
+
+   .modal-inside .modal-content {
+      background: #5b5b5b;
+      color: white;
+      
+      // Modal technologies in dark theme
+      .modal-technology-badge {
+         background: rgba(255, 255, 255, 0.1);
+         border: 1px solid rgba(255, 255, 255, 0.2);
+         color: white;
+      }
+      
+      .modal-technology-badge:hover {
+         background: rgba(255, 255, 255, 0.15);
+         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+      }
+   }
+
+   .close-icon {
+      color: white;
+   }
+
+   // Dark Theme Styles
+   .navigation-container {
+      background-color: rgba(73, 73, 73, 0.95);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+      border: 1px solid #555;
+   }
+
+   .navigation-button {
+      color: white;
+   }
+
+   .navigation-button:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+   }
+
+   .theme-toggle-label {
+      color: #ccc;
+   }
+
+   .theme-toggle-item {
+      border-top-color: #555;
+   }
+
+   // Skills Section
+   #skills {
+      background: #2d3748;
+   }
+
+   .skill-category {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+   }
+
+   .category-title {
+      color: #fff;
+      border-bottom-color: #fff;
+   }
+
+   .skill-item {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+   }
+
+   .skill-item:hover {
+      background: rgba(255, 255, 255, 0.15);
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+   }
+
+   .skill-name {
+      color: #fff;
+   }
+
+   // Experience Section
+   #experience {
+      background: #2d3748;
+   }
+
+   #experience h1 {
+      color: #fff;
+   }
+
+   // Project Cards - Dark Theme
+   .modern-project-card {
+      background: #4a5568;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+   }
+
+   .modern-project-card:hover {
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+      border-color: rgba(255, 255, 255, 0.2);
+   }
+
+   .project-title {
+      color: #f7fafc;
+   }
+
+   .technology-badge {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: #e2e8f0;
+   }
+
+   .technology-badge:hover {
+      background: rgba(255, 255, 255, 0.15);
+      border-color: rgba(255, 255, 255, 0.3);
+   }
+
+   .technology-badge i {
+      color: #90cdf4;
+   }
+
+   .more-tech {
+      background: rgba(255, 255, 255, 0.15);
+      color: #cbd5e0;
+      border-color: rgba(255, 255, 255, 0.25);
+   }
+
+   // Modal Technologies
+   .modal-technology-badge {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: #e2e8f0;
+   }
+
+   .modal-technology-badge:hover {
+      background: rgba(255, 255, 255, 0.15);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+   }
+
+   .modal-technology-badge i {
+      color: #90cdf4;
+   }
+}

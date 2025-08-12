@@ -1,0 +1,155 @@
+body[data-theme="light"] {
+    @import '../light-slider.scss';
+ 
+    .slider-tab {
+       background-color: #D7CAAA;
+    }
+
+    // Navigation styles for light theme
+    .navigation-container {
+       background-color: rgba(255, 255, 255, 0.95);
+       box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+       border: 1px solid #f0f0f0;
+    }
+
+    .navigation-button {
+       color: #333;
+    }
+
+    .navigation-button:hover {
+       background-color: #f0f0f0;
+    }
+
+    .theme-toggle-label {
+		color: #666;
+	}
+
+	.theme-toggle-item {
+		border-top-color: #f0f0f0;
+	}
+
+    #experience {
+       background-color: #e9d5a1;
+       h1 span {
+          color: black;
+       }
+       
+       .experience-card {
+          background-color: white;
+          border: 1px solid #f0f0f0;
+          box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+       }
+       
+       .experience-card h3 {
+          color: #333;
+       }
+       
+       .experience-card h4 {
+          color: #666;
+       }
+       
+       .experience-card p {
+          color: #555;
+       }
+       
+       .experience-card h5 {
+          color: #333;
+       }
+       
+       .experience-card h6 {
+          color: #333;
+       }
+       
+       .experience-card ul {
+          color: #333;
+       }
+       
+       .experience-card li {
+          color: #333;
+       }
+       
+       .experience-card ul li::marker {
+          color: #333;
+       }
+    }
+
+    #skills {
+       background: #f8f9fa;
+       h1 {
+          padding-top: 5%;
+          font: 18px/24px 'opensans-bold', sans-serif;
+          text-transform: uppercase;
+          letter-spacing: 3px;
+          color: black;
+          text-align: center;
+       }
+       
+       .skill-category {
+          background: rgba(0, 0, 0, 0.05);
+          border: 1px solid rgba(0, 0, 0, 0.1);
+       }
+       
+       .category-title {
+          color: #333;
+          border-bottom-color: #333;
+       }
+       
+       .skill-item {
+          background: rgba(0, 0, 0, 0.05);
+          border: 1px solid rgba(0, 0, 0, 0.1);
+       }
+       
+       .skill-item:hover {
+          background: rgba(0, 0, 0, 0.08);
+          box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+       }
+       
+       .skill-name {
+          color: #333;
+       }
+    }
+
+    #portfolio {
+       background-color: #fff;
+       h1 span {
+          color: black;
+       }
+    }
+
+    // Project Cards - Light Theme
+	.modern-project-card {
+		background: #ffffff;
+		border: 1px solid rgba(0, 0, 0, 0.05);
+		box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+	}
+
+	.modern-project-card:hover {
+		box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+		border-color: rgba(0, 0, 0, 0.1);
+	}
+
+	.project-title {
+		color: #2d3748;
+	}
+
+	.technology-badge {
+		background: #f7fafc;
+		border: 1px solid #e2e8f0;
+		color: #4a5568;
+	}
+
+	.technology-badge:hover {
+		background: #edf2f7;
+		border-color: #cbd5e0;
+	}
+
+	.technology-badge i {
+		color: #667eea;
+	}
+
+	.more-tech {
+		background: #e2e8f0;
+		color: #718096;
+		border-color: #cbd5e0;
+	}
+}
