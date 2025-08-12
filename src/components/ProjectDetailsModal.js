@@ -70,7 +70,7 @@ class ProjectDetailsModal extends Component {
             {img && img.length > 0 && (
               <div className="custom-image-slider" style={{ position: 'relative', textAlign: 'center' }}>
                 <img 
-                  src={img[this.state.currentImageIndex]} 
+                  src={`${process.env.PUBLIC_URL}${img[this.state.currentImageIndex]}`}
                   alt={`${title} - ${this.state.currentImageIndex + 1} of ${img.length}`}
                   style={{ 
                     maxWidth: '100%', 

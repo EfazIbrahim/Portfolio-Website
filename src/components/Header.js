@@ -20,7 +20,7 @@ class Header extends Component {
           <div className="col-md-12">
             <div>
                              <img 
-                                   src="./images/profile_pic.jpg" 
+                                   src={`${process.env.PUBLIC_URL}/images/profile_pic.jpg`} 
                  alt="Profile" 
                                    style={{ 
                     width: '350px', 
