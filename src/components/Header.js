@@ -21,7 +21,7 @@ class Header extends Component {
           <div className="col-md-12">
             <div>
                              <img 
-                                   src={`${process.env.PUBLIC_URL}${profilePic}`} 
+                                   src={`${process.env.PUBLIC_URL?.replace(/^\//, '')}${profilePic}`} 
                  alt="Profile" 
                                    style={{ 
                     width: '350px', 
