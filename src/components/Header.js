@@ -20,7 +20,7 @@ class Header extends Component {
           <div className="col-md-12">
             <div>
                              <img 
-                 src="images/profile_pic.jpg" 
+                                   src="./images/profile_pic.jpg" 
                  alt="Profile" 
                                    style={{ 
                     width: '350px', 
