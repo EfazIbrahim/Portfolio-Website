@@ -40,7 +40,7 @@ class Experience extends Component {
               <div className="col-md-8">
                 <div className="d-flex align-items-center mb-3">
                   <img 
-                                         src={`${process.env.PUBLIC_URL?.replace(/^\//, '')}${companyLogo}`}
+                    src={`${companyLogo}`}
                     alt={`${work.company} logo`}
                     style={{
                       width: "80px",

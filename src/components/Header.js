@@ -20,16 +20,16 @@ class Header extends Component {
         <div className="row aligner" style={{height: '100%'}}>
           <div className="col-md-12">
             <div>
-                             <img 
-                                   src={`${process.env.PUBLIC_URL?.replace(/^\//, '')}${profilePic}`} 
-                 alt="Profile" 
-                                   style={{ 
-                    width: '350px', 
-                    height: '350px', 
-                    borderRadius: '50%', 
-                    objectFit: 'cover',
-                    marginBottom: '1rem',
-                    border: '5px solid #333'
+                <img 
+                  src={`${profilePic}`} 
+                  alt="Profile" 
+                    style={{ 
+                      width: '350px', 
+                      height: '350px', 
+                      borderRadius: '50%', 
+                      objectFit: 'cover',
+                      marginBottom: '1rem',
+                      border: '5px solid #333'
                   }} 
                />
                <br/>
