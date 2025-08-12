@@ -15,8 +15,8 @@
         "startDate": "2024",
         "description": "Developed a cross-platform mobile application with React Native for tracking workouts, creating routines, and setting fitness goals. Built a scalable backend with Node.js and AWS Lambda, exposing RESTful APIs for CRUD operations, and used Amazon RDS with PostgreSQL for secure, persistent data storage. Deployed via AWS Amplify for continuous integration and delivery, and conducted thorough testing in Android Studio to ensure a smooth, reliable user experience across devices.",
         "images": [
-          "images/portfolio/fitness-app/p1.jpg",
-          "images/portfolio/fitness-app/p2.jpg"
+          "/images/portfolio/fitness-app/p1.jpg",
+          "/images/portfolio/fitness-app/p2.jpg"
         ],
         "url": "https://github.com/EfazIbrahim/FitnessApp",
         "technologies": [
@@ -55,8 +55,8 @@
         "startDate": "2023",
         "description": "Created a full-stack web application with a React frontend, Spring Boot backend, and an Express.js server to handle auxiliary API requests. Implemented user authentication, role-based access, and interactive review sections similar to a forum, allowing users to post, comment, and rate games. Designed a secure REST API for data management and integrated dynamic content rendering for an engaging user experience. Deployed the application on AWS for reliable, scalable access.",
         "images": [
-          "images/portfolio/game-review/p1.jpg",
-          "images/portfolio/game-review/p2.png"
+          "/images/portfolio/game-review/p1.jpg",
+          "/images/portfolio/game-review/p2.png"
         ],
         "url": "https://github.com/EfazIbrahim/Personal-Game-Review-Website",
         "technologies": [
@@ -87,8 +87,8 @@
         "startDate": "2024",
         "description": "Built an AI-powered travel assistant using React.js and Tailwind CSS to recommend optimal rest stops for drivers, achieving over 90% prediction accuracy and reducing user input time by 45% through dynamic routing and an intuitive UI. Designed a scalable backend with Node.js, Express.js, AWS Lambda, and Amazon API Gateway, capable of running 500+ route simulations during testing, and integrated the Google Maps API for precise geolocation-based recommendations. Developed and trained a fatigue prediction model with Python, TensorFlow, and Scikit-learn, reaching 92% confidence on test data by leveraging user profiles and time-based driving patterns.", 
         "images": [
-          "images/portfolio/trip-tactics/p1.jpg",
-          "images/portfolio/trip-tactics/p2.png"
+          "/images/portfolio/trip-tactics/p1.jpg",
+          "/images/portfolio/trip-tactics/p2.png"
         ],
         "url": "https://github.com",
         "technologies": [
@@ -135,8 +135,8 @@
         "startDate": "2025",
         "description": "Developed a university course management platform for students, instructors, and faculty, streamlining course enrollment, progress tracking, and academic planning. Built the frontend in React for a responsive, user-friendly interface and leveraged Google Firebase for authentication, real-time database management, and secure data storage. Implemented role-based access to provide tailored functionality for different user types and integrated features for managing grades, assignments, and schedules. Deployed on Google Firebase Hosting for fast, reliable, and scalable access.", 
         "images": [
-          "images/portfolio/degree-bulls/p1.jpg",
-          "images/portfolio/degree-bulls/p2.png"
+          "/images/portfolio/degree-bulls/p1.jpg",
+          "/images/portfolio/degree-bulls/p2.png"
         ],
         "url": "https://github.com",
         "technologies": [
