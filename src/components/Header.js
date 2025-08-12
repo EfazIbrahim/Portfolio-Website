@@ -13,6 +13,7 @@ class Header extends Component {
     const HeaderTitleTypeAnimation = React.memo( () => {
       return <Typical className="title-styles" steps={this.titles} loop={50} />
     }, (props, prevProp) => true);
+    const profilePic = 'images/profile_pic.jpg';
 
     return (
              <header id="home" style={{ height: window.innerHeight - 200, display: 'block' }}>
@@ -20,7 +21,7 @@ class Header extends Component {
           <div className="col-md-12">
             <div>
                              <img 
-                                   src={`${process.env.PUBLIC_URL}/images/profile_pic.jpg`} 
+                                   src={`${process.env.PUBLIC_URL}${profilePic}`} 
                  alt="Profile" 
                                    style={{ 
                     width: '350px', 

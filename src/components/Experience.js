@@ -25,6 +25,7 @@ class Experience extends Component {
             </Badge>
           );
         });
+        var companyLogo = `images/companies/${work.company.toLowerCase().replace(/\s+/g, '-')}-logo.png`;
 
         return (
           <div 
@@ -39,7 +40,7 @@ class Experience extends Component {
               <div className="col-md-8">
                 <div className="d-flex align-items-center mb-3">
                   <img 
-                    src={`${process.env.PUBLIC_URL}/images/companies/${work.company.toLowerCase().replace(/\s+/g, '-')}-logo.png`}
+                    src={`${process.env.PUBLIC_URL}${companyLogo}`}
                     alt={`${work.company} logo`}
                     style={{
                       width: "80px",
