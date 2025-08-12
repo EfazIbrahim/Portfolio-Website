@@ -5,6 +5,21 @@ body[data-theme="light"] {
        background-color: #D7CAAA;
     }
 
+    // Navigation styles for light theme
+    .navigation-container {
+       background-color: rgba(255, 255, 255, 0.95);
+       box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+       border: 1px solid #f0f0f0;
+    }
+
+    .navigation-button {
+       color: #333;
+    }
+
+    .navigation-button:hover {
+       background-color: #f0f0f0;
+    }
+
     #experience {
        background-color: #e9d5a1;
        h1 span {
@@ -34,6 +49,55 @@ body[data-theme="light"] {
        }
        
        .experience-card h6 {
+          color: #333;
+       }
+       
+       .experience-card ul {
+          color: #333;
+       }
+       
+       .experience-card li {
+          color: #333;
+       }
+       
+       .experience-card ul li::marker {
+          color: #333;
+       }
+    }
+
+    #skills {
+       background-color: #e9d5a1;
+       h1 {
+          padding-top: 5%;
+          font: 18px/24px 'opensans-bold', sans-serif;
+          text-transform: uppercase;
+          letter-spacing: 3px;
+          color: black;
+          text-align: center;
+       }
+       
+       .skill-category {
+          background-color: white;
+          border: 1px solid #f0f0f0;
+          box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+       }
+       
+       .category-title {
+          color: #333;
+          border-bottom-color: #333;
+       }
+       
+       .skill-item {
+          background-color: #f8f8f8;
+          border: 1px solid #e0e0e0;
+       }
+       
+       .skill-item:hover {
+          background-color: #f0f0f0;
+          box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+       }
+       
+       .skill-name {
           color: #333;
        }
     }
