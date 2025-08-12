@@ -25,7 +25,7 @@ class Experience extends Component {
             </Badge>
           );
         });
-        var companyLogo = `images/companies/${work.company.toLowerCase().replace(/\s+/g, '-')}-logo.png`;
+        var companyLogo = `${process.env.PUBLIC_URL}/images/companies/${work.company.toLowerCase().replace(/\s+/g, '-')}-logo.png`;
 
         return (
           <div 
